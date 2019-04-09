@@ -7,3 +7,7 @@ while len(a.keys())<10:
 print("Kilograms Pounds")
 for b, c in a.items():
   print('{} {}'.format(b, c))
+
+# 1 pound = 2.2 kg
+for i in range(1,11):
+  print("{0:<10}{1:.1f}".format(i, i*2.2))
